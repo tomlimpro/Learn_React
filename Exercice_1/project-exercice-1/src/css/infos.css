@@ -1,0 +1,15 @@
+h1, h2,h3{
+    color:white;
+    text-align: center;  
+    margin-bottom: -10px; 
+    align-items: center;
+}
+
+.infos--status{
+    font-size: 100%;
+}
+
+.infos--email{
+    margin-top:20px;
+    font-size:60%
+}

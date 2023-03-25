@@ -1,0 +1,20 @@
+.details--main{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.details--about, .details--interests{
+    display:flex;
+    color: white;
+    flex-direction: column;
+}
+
+.details--text{
+    text-align: left;
+}
+
+.details--title{
+    margin-right: auto;
+}

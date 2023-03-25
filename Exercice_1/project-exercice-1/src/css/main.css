@@ -1,0 +1,38 @@
+body{
+    background-color:#1f2024 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;  
+    
+}
+
+.main--profile{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125); 
+    padding: 21px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+.main--wrapper{
+    max-width: 330px;
+    word-wrap: break-word;
+    
+}
+
+.main--photo{
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+h1{
+    color: white;
+}

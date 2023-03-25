@@ -1,0 +1,9 @@
+.Footer--main{
+    display: flex;
+
+}
+.footer--icon--instagram, .footer--icon--facebook, .footer--icon--snapchat, .footer--icon--tiktok{
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+}
