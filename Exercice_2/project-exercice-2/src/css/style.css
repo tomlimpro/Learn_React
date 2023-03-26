@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 8.95px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    padding:20px;
+}
+.navbar--container{
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    background-color: #f34e51;
+    align-items: center;
+}
+
+.navbar--logo{
+    max-width: 30px;
+    margin:10px;
+}
+
+.navbar--title{
+    color: white;
+}
+
+.card--list{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.card--container{
+    width:80%;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 90px;
+    
+}
+
+.image{
+    width: 400px;
+    height: 330px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+.card--block--infos{
+    margin:30px;
+    width: auto;
+}
+
+.infos--rows--country{
+    display: flex;
+    align-items: center;
+}
+
+.infos--country{
+    font-size: 25px;
+}
+
+.infos--googlelink{
+    margin-left: 20px;
+}
+
+.infos--rows--location{
+    display: flex;
+    height: 80px;
+}
+.infos--location{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.infos--rows--period{
+    display:flex;
+}
+
+.infos--period{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: auto;
+}
+
+.infos--rows--description{
+    display:flex;
+}
+
+.infos--description{
+    font-size: 18px;
+    margin-top:auto;
+}
